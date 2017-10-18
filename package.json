@@ -7,14 +7,14 @@
     "patch-release": "npm version patch && npm publish"
   },
   "bin": {
-    "create-apier-project": "bin/create-apier-project.js"
+    "create-apier-project": "bin/create-apier-project.js",
+    "create-apier-component": "bin/create-apier-component.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phytertek/create-apier-cli.git"
   },
   "keywords": [
-    "api",
     "node",
     "express",
     "mongo",
@@ -32,6 +32,7 @@
   "homepage": "https://github.com/phytertek/create-apier-cli#readme",
   "dependencies": {
     "cli-spinner": "^0.2.6",
+    "cmdify": "0.0.4",
     "generate-password": "^1.3.0",
     "inquirer": "^3.3.0",
     "shelljs": "^0.7.8"
