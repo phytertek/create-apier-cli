@@ -129,7 +129,6 @@ inquirer
       npm run start:dev
       
       Enjoy!`)
-      console.log('\nBuild complete')
     })
   })
   .catch(error => console.log(error))

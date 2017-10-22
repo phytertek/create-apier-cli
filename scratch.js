@@ -40,6 +40,17 @@ const existingSchemaQuestion = [
     }
   }
 ]
+const newSchemaQuestion = [
+  {
+    name: 'newSchemaName',
+    type: 'input',
+    message: 'What would you like to call your table?',
+    validate: input => {
+      if (/^([A-Za-z\-\_\d])+$/.test(input)) return true
+      return 'Table name may only contain letters, numbers, underscores and dashes'
+    }
+  }
+]
 const getExisingSchema = () => {
   // returns array of schema names from project's app config and component dirs
   try {
