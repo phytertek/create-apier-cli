@@ -1,6 +1,6 @@
 {
   "name": "create-apier-cli",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A cli that generates Apier projects and components",
   "main": "index.js",
   "scripts": {
