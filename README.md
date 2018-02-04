@@ -6,4 +6,7 @@
 
 ```$ create-apier-project```
 
-Stay tuned for more Awesome Sauce!
+# Create a component
+
+Run from the root directory of an Apier project
+```$ create-apier-component```
